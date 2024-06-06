@@ -1,0 +1,89 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.container {
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+
+h2 {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bolder;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.dress-up {
+  margin-bottom: 7px;
+}
+
+/* .more-info {
+  margin-bottom: 10px; // NOTE: adding a margin-bottom to an ancher will not work!
+} */
+
+.product-details {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  border-style: none;
+  cursor: pointer;
+  /* width: 825px;*/
+  /* OR */
+  width: 100%;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 5px solid black;
+}
+
+/*All four below Pseudo classes: link- visited- hover- active*/
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: square;
+  margin-left: 20px;
+  padding: 5px;
+}
