@@ -8,10 +8,87 @@
 body {
 }
 
+.sale {
+  /* to put the SALE at the top using Absolute positioning:*/
+  background-color: rgb(221, 24, 24);
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: bold;
+  /* display: inline-block; */
+  padding: 5px 20px;
+
+  position: absolute;
+  top: -20px;
+  left: -45px;
+}
+
 .container {
   border: 5px solid black;
   width: 825px;
   margin: 50px auto;
+
+  /*div with class container as Parent get the relative position*/
+  position: relative;
+}
+
+.color-blocks {
+  /* height: 50px;
+  width: 25px; */
+  /* padding: 10px; */
+  /* display: block; */
+}
+
+.block-1 {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  color: black;
+  margin-top: 30px;
+}
+
+.block-2 {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  color: blue;
+  margin-left: 50px;
+  margin-top: -25px;
+}
+
+.block-3 {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  color: red;
+  margin-left: 100px;
+  margin-top: -24px;
+}
+
+.block-4 {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  color: orange;
+  margin-left: 150px;
+  margin-top: -25px;
+}
+
+.block-5 {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  color: green;
+  margin-left: 200px;
+  margin-top: -25px;
+}
+
+.block-6 {
+  height: 25px;
+  width: 25px;
+  background-color: brown;
+  color: brown;
+  margin-left: 250px;
+  margin-top: -25px;
 }
 
 h2 {
