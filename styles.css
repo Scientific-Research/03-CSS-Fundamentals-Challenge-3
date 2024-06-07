@@ -62,57 +62,47 @@ body {
   /* display: block; */
 }
 
-.block-1 {
+/* what the 6 blocks have as general properties => we bring all of them in one place(.block) together and we don't need to repeat them for every one! */
+.block {
   height: 25px;
   width: 25px;
+  margin-top: -25px;
+}
+
+.block-1 {
   background-color: black;
   color: black;
   margin-top: 30px;
 }
 
 .block-2 {
-  height: 25px;
-  width: 25px;
   background-color: blue;
   color: blue;
   margin-left: 45px;
-  margin-top: -25px;
 }
 
 .block-3 {
-  height: 25px;
-  width: 25px;
   background-color: red;
   color: red;
   margin-left: 95px;
-  margin-top: -25px;
 }
 
 .block-4 {
-  height: 25px;
-  width: 25px;
   background-color: orange;
   color: orange;
   margin-left: 145px;
-  margin-top: -25px;
 }
 
 .block-5 {
-  height: 25px;
-  width: 25px;
   background-color: green;
   color: green;
   margin-left: 195px;
-  margin-top: -25px;
 }
 
 .block-6 {
-  height: 25px;
-  width: 25px;
   background-color: brown;
   color: brown;
   margin-left: 245px;
-  margin-top: -25px;
 }
 
 h2 {
