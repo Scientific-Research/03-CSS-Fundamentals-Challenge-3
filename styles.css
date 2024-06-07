@@ -64,39 +64,37 @@ body {
 
 /* what the 6 blocks have as general properties => we bring all of them in one place(.block) together and we don't need to repeat them for every one! */
 .block {
+  /* background-color: black; OR i can put it down in .block-1*/
   height: 25px; /*used by all of them*/
   width: 25px; /*used by all of them*/
-  margin-top: -25px; /*used by .block-2 till .block-6 and .block-1 will overwrite that! */
+  display: inline-block; /* if i comment this statement out, the blocks will be displayed vertically like => display: block, but they should be placed horizontally to occupy the place as they need and they will not create any line-break after them, otherwise every block would be in one line and we don't want that! we want all of them in one line with some distances => display: inline-block;  
+  if i specify only this: display: inline; height and width will not work because in inline mode, height and width will not be applied to inline elements! */
+  /* margin-top: 35px; used by all of them */
+  margin-right: 10px; /*used by all of them*/
 }
 
 .block-1 {
   background-color: black;
-  margin-top: 30px;
 }
 
 .block-2 {
   background-color: blue;
-  margin-left: 45px;
 }
 
 .block-3 {
   background-color: red;
-  margin-left: 95px;
 }
 
 .block-4 {
   background-color: orange;
-  margin-left: 145px;
 }
 
 .block-5 {
   background-color: green;
-  margin-left: 195px;
 }
 
 .block-6 {
   background-color: brown;
-  margin-left: 245px;
 }
 
 h2 {
@@ -160,6 +158,13 @@ button:hover {
 a:link,
 a:visited {
   color: black;
+  /* margin-bottom: 30px; This will not work because ancher(a) element is an inline elemnet and margin top and bottom doesn't apply to that! only margin right and left applies to that!  
+  
+  WHAT IS THE SOLUTION:
+  we can change the display from inline to inline-block, after that margin-bottom: 30px; will be applied!
+  */
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 a:hover,
