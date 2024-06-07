@@ -25,7 +25,7 @@ body {
 
   position: absolute;
   top: -17px;
-  left: -34px; /*it is always good to have one twice of aonther one => -34 is twice of -17*/
+  left: -38px; /*it is always good to have one twice of aonther one => -34 is twice of -17*/
 
   /*to make space between letters in SALE word:*/
   letter-spacing: 3px;
