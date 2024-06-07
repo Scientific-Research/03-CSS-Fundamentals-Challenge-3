@@ -64,44 +64,38 @@ body {
 
 /* what the 6 blocks have as general properties => we bring all of them in one place(.block) together and we don't need to repeat them for every one! */
 .block {
-  height: 25px;
-  width: 25px;
-  margin-top: -25px;
+  height: 25px; /*used by all of them*/
+  width: 25px; /*used by all of them*/
+  margin-top: -25px; /*used by .block-2 till .block-6 and .block-1 will overwrite that! */
 }
 
 .block-1 {
   background-color: black;
-  color: black;
   margin-top: 30px;
 }
 
 .block-2 {
   background-color: blue;
-  color: blue;
   margin-left: 45px;
 }
 
 .block-3 {
   background-color: red;
-  color: red;
   margin-left: 95px;
 }
 
 .block-4 {
   background-color: orange;
-  color: orange;
   margin-left: 145px;
 }
 
 .block-5 {
   background-color: green;
-  color: green;
   margin-left: 195px;
 }
 
 .block-6 {
   background-color: brown;
-  color: brown;
   margin-left: 245px;
 }
 
