@@ -10,6 +10,21 @@ body {
 
 .sale {
   /* to put the SALE at the top using Absolute positioning:*/
+  /* background-color: rgb(221, 24, 24);
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: bold; */
+  /* display: inline-block; */
+  /* padding: 5px 20px;
+
+  position: absolute;
+  top: -20px;
+  left: -45px; */
+}
+
+/* OR using Pseudo element ::before - in this case, we don't need the paragraph for SALE ih HTML anymore, that's why i commented that in HTML out!*/
+article::before {
+  content: "S A L E";
   background-color: rgb(221, 24, 24);
   color: #f7f7f7;
   font-size: 16px;
@@ -51,7 +66,7 @@ body {
   width: 25px;
   background-color: blue;
   color: blue;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-top: -25px;
 }
 
@@ -60,7 +75,7 @@ body {
   width: 25px;
   background-color: red;
   color: red;
-  margin-left: 100px;
+  margin-left: 95px;
   margin-top: -25px;
 }
 
@@ -69,7 +84,7 @@ body {
   width: 25px;
   background-color: orange;
   color: orange;
-  margin-left: 150px;
+  margin-left: 145px;
   margin-top: -25px;
 }
 
@@ -78,7 +93,7 @@ body {
   width: 25px;
   background-color: green;
   color: green;
-  margin-left: 200px;
+  margin-left: 195px;
   margin-top: -25px;
 }
 
@@ -87,7 +102,7 @@ body {
   width: 25px;
   background-color: brown;
   color: brown;
-  margin-left: 250px;
+  margin-left: 245px;
   margin-top: -25px;
 }
 
