@@ -126,11 +126,11 @@ h4 {
 }
 
 /* .more-info {
-  margin-bottom: 10px; // NOTE: adding a margin-bottom to an ancher will not work!
+  margin-bottom: 10px; // NOTE: adding a margin-bottom to an ancher will not work because it is an inline element and margin&padding top and bottom don't apply to inline element and also height and width will not apply too! to apply such changes, we have to chnage the display from inline to inline-block. I did that below in a:link, a:visited!
 } */
 
 .product-details {
-  margin-top: 30px;
+  margin-top: 30px; /*because margin-bottom for ancher as inline element doesn't work, unless we change display from inline to inlie-block as i did below in a:link, a:visited*/
   margin-bottom: 10px;
 }
 
